@@ -1,0 +1,33 @@
+{
+    "name": "rh.openai.functions.library",
+    "version": "1.0.0",
+    "description": "RH OPENAI FUNCTIONS",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "index.js"
+    },
+    "author": "Yashlin Naidoo",
+    "license": "ISC",
+    "dependencies": {
+        "openai": "^3.2.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.14.8",
+        "@babel/core": "^7.15.0",
+        "@babel/node": "^7.14.9",
+        "@babel/preset-env": "^7.15.0"
+    },
+    "babel": {
+        "presets": [
+            [
+                "@babel/env",
+                {
+                    "targets": {
+                        "node": "14.2.0"
+                    }
+                }
+            ]
+        ]
+    }
+}
